@@ -24,10 +24,6 @@ const DesktopNav = (props) => {
           label="Tracker" 
           containerElement={<Link to="/tracker"/>}  
           style={getMenuStyle(appBar, pathname, '/tracker')} />
-        <FlatButton 
-          label="Reports" 
-          containerElement={<Link to="/report"/>}  
-          style={getMenuStyle(appBar, pathname, '/report')} />
         <ToolbarSeparator/>
         <LoggedInMenu iconStyle={{
           color: appBar.textColor

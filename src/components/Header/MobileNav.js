@@ -29,13 +29,6 @@ const MobileNav = (props) => {
         >
         <FontIcon className="material-icons">play_arrow</FontIcon>
       </IconButton>
-      <IconButton 
-        containerElement={<Link to="/report"/>} 
-        iconStyle={getMenuStyle(appBar, pathname, '/report')} 
-        tooltipPosition='bottom-center'
-        >
-        <FontIcon className="material-icons">show_chart</FontIcon>
-      </IconButton>
       <ToolbarSeparator />
       <LoggedInMenu iconStyle={{
         color: appBar.textColor

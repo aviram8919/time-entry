@@ -1,0 +1,17 @@
+{
+    "short_name" : "Time Entry",
+    "name" : "Time Entry PWA",
+    "icons" : [
+      {
+        "src" : "/images/logo.png",
+        "type" : "image/png",
+        "sizes" : "512x512"
+        
+      }
+    ],
+
+    "start_url" : "/login",
+    "display" : "fullscreen",
+    "theme_color": "#317EFB",
+    "background-color" : "purple"
+  }

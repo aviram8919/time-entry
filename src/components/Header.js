@@ -37,11 +37,9 @@ class Header extends React.Component {
         backgroundColor: appBar.color   
       }}>
         <ToolbarGroup firstChild={true}> 
-          <FontIcon className="material-icons" style={{
-            color: appBar.textColor
-          }}>alarm_on</FontIcon>
-          <ToolbarTitle text="Vivid Trace" style={{
-            color: appBar.textColor
+          <ToolbarTitle text="Time Entry Application" style={{
+            color: appBar.textColor,
+            margin: 10 
           }}/>
         </ToolbarGroup>
         { 
