@@ -23,8 +23,9 @@ To run this project
 * run the command on the Command Line Interface in the directory of downloaded file
 
 * npm install npm-run-all --save-dev  (for npm)
-* npm install
 * npm run build
+* npm install
+* npm start
 * run the localhost on your browser
 
 ## Inspiration
